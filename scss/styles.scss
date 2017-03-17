@@ -1,18 +1,29 @@
-$gray : #d3d3d3;
+$blue : #B1E5F2;
 
-.header {
+.container-fluid{
+  background-image: url('/../../img/hospital.jpeg');
+  background-size: 100vw;
+  background-repeat: no-repeat;
   text-align: center;
-  margin: 40px;
+  width: 100vw;
+  // margin-left: -10px;
+  // margin-right: -10px;
+  padding: 20px;
+  height: 400px;
+}
+
+.container {
+  text-align: center;
 }
 .box {
-  background: $gray;
-  border: 3px solid black;
+  background: $blue;
+  border: 2px solid #16425B;
   padding: 40px 80px;
   text-align: center;
   .button {
     font-weight: bold;
     text-align: center;
-    background: blue;
+    background: #3A7CA5;
     color: white;
   }
 }
