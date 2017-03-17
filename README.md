@@ -13,7 +13,7 @@ Requires **npm** and **bower** installed in order to run.
 Step 1: **Clone this repository to your local computer**
 
 ```console
-git clone [url]
+git clone [repository url]
 ```
 
 Step 2: **Install all development and production dependencies from the project root directory**
