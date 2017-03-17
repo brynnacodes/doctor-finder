@@ -1,6 +1,6 @@
 {
   "name": "doctor-finder",
-  "description": "",
+  "description": "An app for finding local specialists",
   "main": "index.js",
   "authors": [
     "Brynna <brynna.mccarter@gmail.com>"
