@@ -14,4 +14,4 @@ Doctor.prototype.find = function(disease, callback) {
     });
 };
 
-  exports.doctorModule = Doctor;
+exports.doctorModule = Doctor;
