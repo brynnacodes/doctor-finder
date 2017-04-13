@@ -1,10 +1,11 @@
-$blue : #B1E5F2;
+
 
 body {
   font-family: 'Muli', sans-serif;
 }
+
 .container-fluid{
-  background-image: url('/../../img/hospital.jpeg');
+  background-image: url('../img/hospital.jpeg');
   background-size: 100vw;
   background-repeat: no-repeat;
   text-align: center;
@@ -14,25 +15,29 @@ body {
 
 .container {
   text-align: center;
-  .header {
-    margin-bottom: 30px;
-  }
-  .header h1 {
-    font-size: 60px;
-    letter-spacing: 4px;
-  }
 }
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+
 .box {
-  background: $blue;
+  background: #B1E5F2;
   border: 2px solid #16425B;
   padding: 40px 80px;
   text-align: center;
-  .button {
-    font-weight: bold;
-    text-align: center;
-    background: #3A7CA5;
-    color: white;
-  }
+}
+
+.button {
+  font-weight: bold;
+  text-align: center;
+  background: #3A7CA5;
+  color: white;
 }
 
 label {
